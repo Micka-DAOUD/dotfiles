@@ -1,0 +1,36 @@
+daemonize
+show-failed-attempts
+clock
+screenshot
+effect-blur=15x15
+
+indicator
+indicator-radius=200
+indicator-thickness=10
+
+color=191828CC
+inside-color=11111BFF
+inside-clear-color=11111BFF
+inside-ver-color=11111BFF
+inside-wrong-color=11111BFF
+
+ring-color=8BC2F0FF
+ring-clear-color=89B4FAFF
+ring-ver-color=FAE3B0FF
+ring-wrong-color=F38BA8FF
+
+text-color=D9E0EEFF
+text-clear-color=89B4FAFF
+text-ver-color=FAE3B0FF
+text-wrong-color=F38BA8FF
+key-hl-color=89E051FF
+bs-hl-color=F38BA8FF
+
+grace=0
+grace-no-mouse
+grace-no-touch
+datestr=%a, %B %e
+timestr=%I:%M %p
+fade-in=0
+ignore-empty-password
+font=DaddyTime Mono Nerd Font

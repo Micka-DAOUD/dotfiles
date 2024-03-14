@@ -1,0 +1,41 @@
+ #window {
+  font-size: 24px;
+   font-family: DaddyTime Mono Nerd Font;
+  background-color: transparent;
+}
+
+#input {
+  color: --wofi-color1;
+  background: linear-gradient(--wofi-color0, --wofi-color0) padding-box,
+              linear-gradient(135deg, rgba(51, 204, 255, 238), rgba(0, 204, 255, 238)) border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
+
+  margin-bottom: 16px;
+  font-size: 32px;
+  padding: 8px;
+  color: --wofi-color3;
+}
+
+#scroll {
+  background: linear-gradient(--wofi-color0, --wofi-color0) padding-box,
+              linear-gradient(135deg, rgba(51, 204, 255, 238), rgba(0, 204, 255, 238)) border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  color: --wofi-color1;
+  overflow: hidden;
+}
+
+#text:selected {
+  color: --wofi-color0;
+}
+
+#entry {
+  padding: 8px;
+}
+
+#entry:selected {
+  color: --wofi-color0;
+  background-color: --wofi-color2;
+  border-radius: 16px;
+}
